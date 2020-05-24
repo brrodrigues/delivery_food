@@ -61,8 +61,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  double offsetButton = 0;
-
   @override
   Widget build(BuildContext context) {
 
@@ -127,7 +125,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   margin: EdgeInsets.symmetric(horizontal: 5, vertical: 10),
                   width: size.width,
                   height: 60,
-                  child: CategoryCard(['Fruits', 'Meat']))
+                  child: CategoryCard(['Fruits', 'Meat', 'Vegetable']))
             ],
           ),
         ),
